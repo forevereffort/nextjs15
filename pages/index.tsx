@@ -15,18 +15,24 @@ const Home: NextPage = () => {
       </Head>
       <header>
         <div className={BaseStyles.container}>
-          <div>
-            <a href=""><Image src="/15-five-logo.svg" alt="15 five Logo" width={121} height={32} /></a>
+          <div className={HeaderStyles.navRow}>
+            <div>
+              <a href=""><Image src="/15-five-logo.svg" alt="15 five Logo" width={121} height={32} /></a>
+            </div>
+            <nav className={HeaderStyles.nav}>
+              <ul>
+                <li><a href="#">Why 15Five</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </nav>
+            <div>
+              <a href="#" className={HeaderStyles.logIn}>Log In</a>
+              <a href="#" className={HeaderStyles.try}>Try it Free</a>
+            </div>
           </div>
-          <nav className={HeaderStyles.nav}>
-            <ul>
-              <li><a href="#">Why 15Five</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </nav>
         </div>
       </header>
     </>

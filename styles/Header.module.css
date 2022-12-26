@@ -1,3 +1,10 @@
+.navRow{
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    align-items: center;
+}
+
 .nav > ul{
     display: flex;
 }
@@ -9,4 +16,42 @@
     padding: 3px 12px 4px;
     margin: 0 4px;
     border-radius: 4px;
+}
+
+.nav > ul > li > a:hover{
+    background: rgba(26,13,63,.05);
+}
+
+.nav > ul > li > a::after{
+    width: 10px;
+    height: 10px;
+    content: '';
+    background: url(../public/menu-chevron-normal.svg) no-repeat 50%;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.nav > ul > li > a:hover::after{
+    background-image: url(../public/menu-chevron-hover.svg);
+}
+
+.logIn{
+    font-weight: 500;
+    display: inline-block;
+    padding: 11px 16px 10px;
+    line-height: 25px;
+    color: #1a0d3f;
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.try{
+    font-weight: 500;
+    padding: 3px 12px 4px;
+    line-height: 23px;
+    color: #db3700;
+    border: 2px solid #db3700;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 4px;
 }
