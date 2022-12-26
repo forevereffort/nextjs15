@@ -1,0 +1,12 @@
+.nav > ul{
+    display: flex;
+}
+
+.nav > ul > li > a{
+    color: #1a0d3f;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 3px 12px 4px;
+    margin: 0 4px;
+    border-radius: 4px;
+}
