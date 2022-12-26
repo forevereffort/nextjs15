@@ -45,6 +45,10 @@
     margin-right: 4px;
 }
 
+.logIn:hover{
+    text-decoration: underline;
+}
+
 .try{
     font-weight: 500;
     padding: 3px 12px 4px;
@@ -54,4 +58,10 @@
     border-radius: 4px;
     font-size: 18px;
     margin-left: 4px;
+    transition: background-color .2s ease, color .2s ease;
+}
+
+.try:hover{
+    color: #fff;
+    background-color: #db3700;
 }
