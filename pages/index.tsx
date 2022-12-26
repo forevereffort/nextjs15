@@ -21,10 +21,10 @@ const Home: NextPage = () => {
             </div>
             <nav className={HeaderStyles.nav}>
               <ul>
-                <li><a href="#">Why 15Five</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Company</a></li>
+                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Why 15Five</a></li>
+                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Products</a></li>
+                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a></li>
+                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Company</a></li>
                 <li><a href="#">Pricing</a></li>
               </ul>
             </nav>
