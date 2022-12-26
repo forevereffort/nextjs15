@@ -65,3 +65,25 @@
     color: #fff;
     background-color: #db3700;
 }
+
+.megaNav{
+    position: fixed;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(26 13 63 / 8%);
+}
+
+.subLink{
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.megaNavRow{
+    display: flex;
+}
