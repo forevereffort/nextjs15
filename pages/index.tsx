@@ -147,6 +147,9 @@ const Home: NextPage = () => {
                               </a>
                             </li>
                           </ul>
+                          <a className={`${HeaderStyles.subLink} ${HeaderStyles.subLinkAll}`} href="#">
+                            <span className={HeaderStyles.subTitle}>See All</span>
+                          </a>
                         </div>
                       </div>
                     </div>

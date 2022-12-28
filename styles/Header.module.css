@@ -237,6 +237,10 @@
     width: calc(100% - 295px);
     padding: 0;
     min-height: auto;
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
 }
 
 .megaNav2 .megaNavRight::before{
@@ -247,6 +251,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 8px -16px 0;
+    order: 3;
 }
 
 .megaNav2 .megaNavRight .subMenuItem{
@@ -266,4 +271,22 @@
 
 .megaNav2 .megaNavRight .lead{
     margin: 0;
+    order: 1;
+    height: 20px;
+}
+
+.megaNav2 .megaNavRight .subLinkAll{
+    order: 2;
+    height: 20px;
+    padding: 0;
+}
+
+.megaNav2 .megaNavRight .subLinkAll:hover{
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.megaNav2 .megaNavLeft .subLink:hover{
+    background-color: transparent;
+    border-radius: 0;
 }
