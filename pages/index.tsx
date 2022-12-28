@@ -18,7 +18,6 @@ const Home: NextPage = () => {
 
   const handleWhy15FiveMouseOut = () => {
     setIsWhy15FiveHovering(false);
-    console.log('out');
   };
 
   const handleProductsMouseOver = () => {
@@ -60,8 +59,8 @@ const Home: NextPage = () => {
             </div>
             <nav className={HeaderStyles.nav}>
               <ul>
-                <li onMouseOut={handleWhy15FiveMouseOut}>
-                  <a href="#" className={HeaderStyles.hasMegaMenu} onMouseOver={handleWhy15FiveMouseOver}>Why 15Five</a>
+                <li onMouseOut={handleWhy15FiveMouseOut} onMouseOver={handleWhy15FiveMouseOver}>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Why 15Five</a>
                   { isWhy15FiveHovering && (
                     <div className={HeaderStyles.megaNav}>
                       <div className={BaseStyles.container}>
@@ -132,8 +131,8 @@ const Home: NextPage = () => {
                     </div>
                   )}
                 </li>
-                <li onMouseOut={handleProductsMouseOut}>
-                  <a href="#" className={HeaderStyles.hasMegaMenu} onMouseOver={handleProductsMouseOver}>Products</a>
+                <li onMouseOver={handleProductsMouseOver} onMouseOut={handleProductsMouseOut}>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Products</a>
                   { isProductsHovering && (
                     <div className={`${HeaderStyles.megaNav} ${HeaderStyles.megaNav2}`}>
                       <div className={BaseStyles.container}>
@@ -198,8 +197,8 @@ const Home: NextPage = () => {
                     </div>
                   )}
                 </li>
-                <li onMouseOut={handleResourcesMouseOut}>
-                  <a href="#" className={HeaderStyles.hasMegaMenu} onMouseOver={handleResourcesMouseOver}>Resources</a>
+                <li onMouseOver={handleResourcesMouseOver} onMouseOut={handleResourcesMouseOut}>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a>
                   { isResourcesHovering && (
                     <div className={HeaderStyles.megaNav}>
                       <div className={BaseStyles.container}>
@@ -262,8 +261,8 @@ const Home: NextPage = () => {
                     </div>
                   )}
                 </li>
-                <li onMouseOut={handleCompanyMouseOut}>
-                  <a href="#" className={HeaderStyles.hasMegaMenu} onMouseOver={handleCompanyMouseOver}>Company</a>
+                <li onMouseOver={handleCompanyMouseOver} onMouseOut={handleCompanyMouseOut}>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
                   { isCompanyHovering && (
                     <div className={HeaderStyles.megaNav}>
                       <div className={BaseStyles.container}>
