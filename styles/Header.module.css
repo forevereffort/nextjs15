@@ -111,7 +111,10 @@
 
 .subMenuItem{
     max-width: 272px;
-    padding-right: 40px;
+}
+
+.megaNavLeft .subMenuItem{
+    padding-right: 40px;    
 }
 
 .subTitle{
@@ -182,7 +185,7 @@
     padding: 0;
 }
 
-.megaNavRight .subMenuItem{
+.megaNavRightWide .subMenuItem{
     max-width: none;
 }
 

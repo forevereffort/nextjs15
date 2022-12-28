@@ -92,10 +92,72 @@ const Home: NextPage = () => {
                   </div>
                 </li>
                 <li><a href="#" className={HeaderStyles.hasMegaMenu}>Products</a></li>
-                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a></li>
+                <li>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
+                  <div className={HeaderStyles.megaNav} style={{top: '390px'}}>
+                    <div className={BaseStyles.container}>
+                      <div className={HeaderStyles.megaNavRow}>
+                        <div className={HeaderStyles.megaNavLeft}>
+                          <ul className={HeaderStyles.subMenu}>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Content Library</span>
+                                <div className={HeaderStyles.subDes}>Books, guides, videos and more for thriving organizations</div>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Blog</span>
+                                <div className={HeaderStyles.subDes}>Deep insights on developing people, teams, and organizations</div>
+                              </a>
+                            </li>                                                   
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Help Center</span>
+                                <div className={HeaderStyles.subDes}>Get the latest walkthroughs, tips, and product releases</div>
+                              </a>
+                            </li>                                                
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Podcasts</span>
+                                <div className={HeaderStyles.subDes}>Listen to stories from the frontlines of HR and People Ops</div>
+                              </a>
+                            </li>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Events</span>
+                                <div className={HeaderStyles.subDes}>Upcoming webinars and events</div>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className={HeaderStyles.megaNavRight}>
+                          <div className={HeaderStyles.lead}>
+                            <div className={HeaderStyles.title}>Featured Resources</div>
+                          </div>
+                          <ul>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>HR Hacks for Business Growth</span>
+                                <div className={HeaderStyles.subDes}>Watch the virtual summit on demand</div>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Employee Experience Quiz</span>
+                                <div className={HeaderStyles.subDes}>Discover your #1 employee experience gap and ways to address the root cause</div>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '370px'}}>
+                  <div className={HeaderStyles.megaNav} style={{top: '750px'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
@@ -141,7 +203,6 @@ const Home: NextPage = () => {
                         <div className={HeaderStyles.megaNavRight}>
                           <div className={HeaderStyles.lead}>
                             <div className={HeaderStyles.title}>We’re Hiring</div>
-                            <div className={HeaderStyles.description}></div>
                           </div>
                           <ul>
                             <li className={HeaderStyles.subMenuItem}>
