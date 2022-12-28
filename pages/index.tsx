@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               <ul>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Why 15Five</a>
-                  <div className={HeaderStyles.megaNav}>
+                  <div className={HeaderStyles.megaNav} style={{display: 'none'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={`${HeaderStyles.megaNavLeft} ${HeaderStyles.megaTwoCols}`}>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Products</a>
-                  <div className={`${HeaderStyles.megaNav} ${HeaderStyles.megaNav2}`} style={{top: '390px'}}>
+                  <div className={`${HeaderStyles.megaNav} ${HeaderStyles.megaNav2}`} style={{display: 'none'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
@@ -157,7 +157,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '600px'}}>
+                  <div className={HeaderStyles.megaNav} style={{display: 'none'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
@@ -219,7 +219,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '1150px'}}>
+                  <div className={HeaderStyles.megaNav} style={{display: 'none'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
