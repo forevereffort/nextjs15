@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Products</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '390px'}}>
+                  <div className={`${HeaderStyles.megaNav} ${HeaderStyles.megaNav2}`} style={{top: '390px'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>

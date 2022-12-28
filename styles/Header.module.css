@@ -197,3 +197,47 @@
     background-color: transparent;
     border-radius: 0;
 }
+
+.megaNav2 .lead{
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.megaNav2 .title{
+    margin-bottom: 0;
+}
+
+.megaNav2 .subMenu{
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+.megaNav2 .subMenuItem{
+    padding: 0;
+}
+
+.megaNav2 .subMenuItem:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.megaNav2 .subLink{
+    padding: 0;
+}
+
+.megaNav2 .megaNavRow{
+    padding: 32px 0 35px;
+}
+
+.megaNav2 .megaNavLeft{
+    width: 295px;
+}
+
+.megaNav2 .megaNavRight{
+    width: calc(100% - 295px);
+    padding: 0;
+}
+
+.megaNav2 .megaNavRight::before{
+    display: none;
+}
