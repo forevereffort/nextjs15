@@ -290,3 +290,19 @@
     background-color: transparent;
     border-radius: 0;
 }
+
+.subLink1:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #6c00db;
+}
+
+.subLink2:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #ff4b11;
+}
+
+.subLink3:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #f4ae2a;
+}
+
+.subLink4:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #16dbdb;
+}
