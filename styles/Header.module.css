@@ -9,6 +9,12 @@
     display: flex;
 }
 
+.nav > ul > li{
+    display: flex;
+    height: 58px;
+    align-items: center;
+}
+
 .nav > ul > li > a{
     color: #1a0d3f;
     font-size: 18px;
