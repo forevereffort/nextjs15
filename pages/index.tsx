@@ -91,11 +91,67 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                 </li>
-                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Products</a></li>
+                <li>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Products</a>
+                  <div className={HeaderStyles.megaNav} style={{top: '390px'}}>
+                    <div className={BaseStyles.container}>
+                      <div className={HeaderStyles.megaNavRow}>
+                        <div className={HeaderStyles.megaNavLeft}>
+                          <div className={HeaderStyles.lead}>
+                            <div className={HeaderStyles.title}>Overview</div>
+                          </div>
+                          <ul className={HeaderStyles.subMenu}>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Product Overview</span>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>HR Superstars Community</span>
+                              </a>
+                            </li>                                                   
+                          </ul>
+                        </div>
+                        <div className={HeaderStyles.megaNavRight}>
+                          <div className={HeaderStyles.lead}>
+                            <div className={HeaderStyles.title}>Products</div>
+                          </div>
+                          <ul>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Increasing Engagement</span>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Improving Manager Effectiveness</span>
+                              </a>
+                            </li>                                                   
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Remote Team Development</span>
+                              </a>
+                            </li>                                                
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Aligning Company Success</span>
+                              </a>
+                            </li>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>People Development</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a>
-                  <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '390px'}}>
+                  <div className={HeaderStyles.megaNav} style={{top: '790px'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
@@ -157,7 +213,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
-                  <div className={HeaderStyles.megaNav} style={{top: '750px'}}>
+                  <div className={HeaderStyles.megaNav} style={{top: '1150px'}}>
                     <div className={BaseStyles.container}>
                       <div className={HeaderStyles.megaNavRow}>
                         <div className={HeaderStyles.megaNavLeft}>
