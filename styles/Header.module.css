@@ -236,8 +236,34 @@
 .megaNav2 .megaNavRight{
     width: calc(100% - 295px);
     padding: 0;
+    min-height: auto;
 }
 
 .megaNav2 .megaNavRight::before{
     display: none;
+}
+
+.megaNav2 .megaNavRight .subMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 8px -16px 0;
+}
+
+.megaNav2 .megaNavRight .subMenuItem{
+    margin: 0;
+}
+
+.megaNav2 .megaNavRight .subLink img{
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+}
+
+.megaNav2 .megaNavRight .subLink {
+    max-width: 256px;
+    padding: 16px;
+}
+
+.megaNav2 .megaNavRight .lead{
+    margin: 0;
 }

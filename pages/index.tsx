@@ -117,30 +117,33 @@ const Home: NextPage = () => {
                           <div className={HeaderStyles.lead}>
                             <div className={HeaderStyles.title}>Products</div>
                           </div>
-                          <ul>
+                          <ul className={HeaderStyles.subMenu}>
                             <li className={HeaderStyles.subMenuItem}>
                               <a className={HeaderStyles.subLink} href="#">
-                                <span className={HeaderStyles.subTitle}>Increasing Engagement</span>
+                                <Image src="/Engagement.svg" alt="Engage" width={24} height={24}/>
+                                <span className={HeaderStyles.subTitle}>Engage</span>
+                                <div className={HeaderStyles.subDes}>Engagement surveys and feedback tools to focus on what matters.</div>
                               </a>
                             </li>                                                 
                             <li className={HeaderStyles.subMenuItem}>
                               <a className={HeaderStyles.subLink} href="#">
-                                <span className={HeaderStyles.subTitle}>Improving Manager Effectiveness</span>
+                                <Image src="/Performance.svg" alt="Perform" width={24} height={24}/>
+                                <span className={HeaderStyles.subTitle}>Perform</span>
+                                <div className={HeaderStyles.subDes}>Performance reviews and measurement that inspire growth.</div>
                               </a>
                             </li>                                                   
                             <li className={HeaderStyles.subMenuItem}>
                               <a className={HeaderStyles.subLink} href="#">
-                                <span className={HeaderStyles.subTitle}>Remote Team Development</span>
+                                <Image src="/focus71de.svg" alt="Focus" width={24} height={24}/>
+                                <span className={HeaderStyles.subTitle}>Focus</span>
+                                <div className={HeaderStyles.subDes}>OKRs and goal management that is easy and effective.</div>
                               </a>
                             </li>                                                
                             <li className={HeaderStyles.subMenuItem}>
                               <a className={HeaderStyles.subLink} href="#">
-                                <span className={HeaderStyles.subTitle}>Aligning Company Success</span>
-                              </a>
-                            </li>
-                            <li className={HeaderStyles.subMenuItem}>
-                              <a className={HeaderStyles.subLink} href="#">
-                                <span className={HeaderStyles.subTitle}>People Development</span>
+                                <Image src="/transform-icon653d.svg" alt="Transform" width={24} height={24}/>
+                                <span className={HeaderStyles.subTitle}>Transform</span>
+                                <div className={HeaderStyles.subDes}>A blended learning solution designed to upskill managers at all levels.</div>
                               </a>
                             </li>
                           </ul>
