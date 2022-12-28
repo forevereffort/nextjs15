@@ -154,8 +154,13 @@
 }
 
 .lead{
+    padding: 0 22px 0 16px;
+}
+
+.megaNavRightWide .lead{
     margin-bottom: 14px;
     max-width: 220px;
+    padding: 0;
 }
 
 .title{
@@ -173,7 +178,7 @@
     color: rgba(26,13,63,.6);
 }
 
-.megaNavRight .subLink{
+.megaNavRightWide .subLink{
     padding: 0;
 }
 
@@ -183,4 +188,9 @@
 
 .megaNavRight .subMenuItem:not(:last-child){
     margin-bottom: 8px;
+}
+
+.megaNavRightWide .subLink:hover{
+    background-color: transparent;
+    border-radius: 0;
 }

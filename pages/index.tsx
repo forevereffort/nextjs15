@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                             </li>
                           </ul>
                         </div>
-                        <div className={HeaderStyles.megaNavRight}>
+                        <div className={`${HeaderStyles.megaNavRight} ${HeaderStyles.megaNavRightWide}`}>
                           <div className={HeaderStyles.lead}>
                             <div className={HeaderStyles.title}>Solutions</div>
                             <div className={HeaderStyles.description}>Your path to success in building high-performing organizations</div>
@@ -93,7 +93,80 @@ const Home: NextPage = () => {
                 </li>
                 <li><a href="#" className={HeaderStyles.hasMegaMenu}>Products</a></li>
                 <li><a href="#" className={HeaderStyles.hasMegaMenu}>Resources</a></li>
-                <li><a href="#" className={HeaderStyles.hasMegaMenu}>Company</a></li>
+                <li>
+                  <a href="#" className={HeaderStyles.hasMegaMenu}>Company</a>
+                  <div className={HeaderStyles.megaNav} style={{top: '370px'}}>
+                    <div className={BaseStyles.container}>
+                      <div className={HeaderStyles.megaNavRow}>
+                        <div className={HeaderStyles.megaNavLeft}>
+                          <ul className={HeaderStyles.subMenu}>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>About</span>
+                                <div className={HeaderStyles.subDes}>Learn about our mission, values, and story</div>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Partnership Programs</span>
+                                <div className={HeaderStyles.subDes}>Connect your clients with a best-in-class HR technology</div>
+                              </a>
+                            </li>                                                   
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Press</span>
+                                <div className={HeaderStyles.subDes}>See what the media has been saying about us</div>
+                              </a>
+                            </li>                                                
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Careers</span>
+                                <div className={HeaderStyles.subDes}>Come be a part of our award-winning culture</div>
+                              </a>
+                            </li>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Refer a Friend</span>
+                                <div className={HeaderStyles.subDes}>Invite your friends to join 15Five</div>
+                              </a>
+                            </li>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Contact Us</span>
+                                <div className={HeaderStyles.subDes}>Let’s get connected</div>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className={HeaderStyles.megaNavRight}>
+                          <div className={HeaderStyles.lead}>
+                            <div className={HeaderStyles.title}>We’re Hiring</div>
+                            <div className={HeaderStyles.description}></div>
+                          </div>
+                          <ul>
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Sales Development Rep</span>
+                                <div className={HeaderStyles.subDes}>Sales Development (Indianapolis, IN or Raleigh, NC)</div>
+                              </a>
+                            </li>                                                 
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>Sales Development Manager</span>
+                                <div className={HeaderStyles.subDes}>Sales Development (Indianapolis, IN or Raleigh, NC)</div>
+                              </a>
+                            </li>                                                   
+                            <li className={HeaderStyles.subMenuItem}>
+                              <a className={HeaderStyles.subLink} href="#">
+                                <span className={HeaderStyles.subTitle}>All Open Positions</span>
+                              </a>
+                            </li>                                                
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li><a href="#">Pricing</a></li>
               </ul>
             </nav>
