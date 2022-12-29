@@ -49,6 +49,7 @@ const Home: NextPage = () => {
       <Head>
         <title>15five home</title>
         <meta name="description" content="15five home meta description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
